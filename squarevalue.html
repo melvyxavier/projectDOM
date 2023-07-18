@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./squarevalue.css">
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="container col-sm-12" id="w2">
+            <h1
+                style="text-align: center; color: beige; font-family: 'IBM Plex Mono', monospace;display: flex;justify-content: center;align-items: center;">
+                Square Value</h1><br>
+            <input type="text" name="" id="a1" placeholder="Enter Number"><br><br>
+            <button type="button" onclick="squareFind()" id="r1" style="color: black;">Find square</button>
+
+        </div>
+
+    </div>
+</body>
+
+<script>
+    squareFind = n => {
+        n = parseInt(a1.value)
+        alert(`The square of ${n} is ${n ** 2}`)
+    }
+</script>
+
+</html>

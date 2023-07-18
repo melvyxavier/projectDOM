@@ -1,0 +1,39 @@
+.parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(117, 76, 76);
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#a1 {
+    margin-left: 12px;
+    text-align: center;
+}
+
+@media (max-width: 990px) {
+    #a1 {
+        margin-left: 12px;
+    text-align: center;
+
+    }
+}
+
+#r1 {
+    margin-left: 55px;
+    margin-bottom: 36px;
+}
+
+@media (max-width: 990px) {
+    #r1 {
+        margin-left: 52px;
+    text-align: center;
+
+    }
+}
